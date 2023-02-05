@@ -10,7 +10,7 @@ A simple React app that demonstrates the basic CRUD operations using GraphQL. It
 2. Install the dependencies:
     npm install
 
-3. Create a `.env` file in the root of the project and add the following environment variables:
+3. Add the following variable in your`.env` file in the root of the project:
     REACT_APP_GRAPHQL_API=https://[YOUR-GRAPHQL-API].com/graphql
 
 4. Start the development server:
