@@ -1,0 +1,137 @@
+.dashboard-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+
+.lead-button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    margin: 20px 20px 20px 0px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    float: right;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.lead-button:hover {
+    background-color: #3e8e41;
+}
+
+.lead-title {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Georgia', serif;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px #ccc;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px #333;
+}
+
+select option {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+}
+
+.delete-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.delete-icon:hover {
+    background-color: #fff;
+    color: #f30b0b;
+    box-shadow: 0px 0px 10px #333;
+}
+
+.delete-icon i {
+    font-size: 14px;
+}
